@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 0.6
 after_install:
-  - "curl -L https://github.com/rameshmaveric/webappDepolyment.git | /bin/sh"
+  - "curl -L https://github.com/rameshmaveric/NodeMocha.git | /bin/sh"
 deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
