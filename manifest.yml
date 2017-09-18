@@ -1,7 +1,7 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/nodejs-buildpack
 - path: .
-- name: webappDepolyment
+- name: NodeMocha
   memory: 256M
   instances: 1
   domain: mybluemix.net
