@@ -3,6 +3,7 @@ node_js:
   - 0.6
 after_install:
   - "curl -L https://github.com/rameshmaveric/NodeMocha.git | /bin/sh"
+script:script.sh
 deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
