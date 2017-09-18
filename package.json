@@ -11,6 +11,6 @@
 	},
   "optionalDependencies": {},
 	"scripts": {
-			"test": "npm test"
+			"test": "test-bdd"
 	}
 }
